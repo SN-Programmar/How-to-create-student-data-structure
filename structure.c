@@ -1,0 +1,41 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+
+struct student
+{
+    /* data */
+    char name[100];
+    char class[100]; 
+    int roll_no;
+    float per;
+};
+
+
+int main () {
+    struct student s1; {
+        strcpy(s1.name,"Shavez Gaur");
+        strcpy(s1.class, "BCA_2ND YEAR");
+        s1.roll_no = 0002;
+        s1.per = 65;
+    }
+
+    
+
+    struct student s2; {
+        strcpy(s2.name,"Fardeen Gaur");
+        strcpy(s2.class,"BCA");
+        s2.roll_no = 0001;
+        s2.per = 75;
+    }
+
+    printf("Name : %s\n",s1.name);
+    printf("class : %s\n",s1.class);
+    printf("Roll No. : %d\n",s1.roll_no);
+    printf("Percentage : %f\n",s1.per);
+printf("\n");
+    printf("Name : %s\n Class : %s\n Roll No. : %d\n Percentage : %f\n",s2.name,s2.class,s2.roll_no,s2.per);
+
+    return 0;
+    
+}
