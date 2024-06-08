@@ -36,6 +36,8 @@ int main () {
 printf("\n");
     printf("Name : %s\n Class : %s\n Roll No. : %d\n Percentage : %f\n",s2.name,s2.class,s2.roll_no,s2.per);
 
+printf(%s , "Commet Sekna ka liya ya line lik raha hu jissa dek saku ki commet kaysa dekta hai or chagne kaysa shwo hota hai!") 
+
     return 0;
     
 }
